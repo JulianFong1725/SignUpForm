@@ -27,32 +27,32 @@
 					<form id="sign-up-form">
 						<div class="input-field">
 							<label for="firstname">FIRST NAME</label>
-							<input type="text" id="firstname" name="firstname">
+							<input type="text" id="firstname" name="firstname" placeholder="Bob" required>
 						</div>
 
 						<div class="input-field">
 							<label for="lastname">LAST NAME</label>
-							<input type="text" id="lastname" name="lastname">
+							<input type="text" id="lastname" name="lastname" placeholder="Smith" required>
 						</div>
 
 						<div class="input-field">
 							<label for="email">EMAIL</label>
-							<input type="email" id="email" name="email">
+							<input type="email" id="email" name="email" placeholder="bobsmith@gmail.com" required>
 						</div>
 
 						<div class="input-field">
 							<label for="phone-number">PHONE NUMBER</label>
-							<input type="tel" id="phone-number" name="phone-number">
+							<input type="tel" id="phone-number" name="phone-number" pattern="[0-9]{3} [0-9]{3}-[0-9]{4}" maxlength="12" placeholder="888 888-8888" required>
 						</div>
 
 						<div class="input-field">
 							<label for="password">PASSWORD</label>
-							<input type="password" id="password" name="password">
+							<input type="password" id="password" name="password" required>
 						</div>
 
 						<div class="input-field">
 							<label for="confirmpassword">CONFIRM PASSWORD</label>
-							<input type="password" id="confirmpassword" name="confirmpassword">
+							<input type="password" id="confirmpassword" name="confirmpassword" required>
 						</div>
 
 						<div class="button-container"><button type="submit" id="create-button">Create Account</button></div>
