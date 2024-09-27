@@ -49,10 +49,9 @@ body {
 .caption {
 	font-size: 12px;
 	color: white;
-	position: absolute;
-	bottom: 0;
-	left: 23%;
-
+	position: relative;
+	bottom: 20px;
+	text-align: center;
 }
 
 .text-background {
