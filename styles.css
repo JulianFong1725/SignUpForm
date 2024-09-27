@@ -1,0 +1,52 @@
+* {
+	border: 1px solid red;
+}
+
+body {
+	background-color: rgb(26, 0, 13);
+	margin: 0 250px;
+}
+
+#container {
+	display: flex;
+}
+
+.gray-bar {
+	position: absolute;
+	background-color: black;
+	width: 400px;
+	height: 100px;
+	z-index: 2;
+	opacity: 0.5;
+	top: 20%;
+	font-size: 48px;
+}
+
+.bar-text {
+	font-size: 1em;
+	color: whitesmoke;
+	text-align: center;
+	margin: auto;
+	height: 100%;
+	align-content: center;
+	font-weight: 900;
+}
+
+#plant {
+	height: 100vh;
+	width: 400px;
+	object-fit: cover;
+}
+
+.caption {
+	font-size: 12px;
+	color: white;
+	position: absolute;
+	bottom: 0;
+	left: 23%;
+
+}
+
+#text-section {
+	background-color: white;
+}
