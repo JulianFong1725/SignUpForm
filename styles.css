@@ -1,3 +1,7 @@
+@font-face {
+	font-family: Odin;
+	src: url("./fonts/Norse-Bold.otf");
+}
 
 body {
 	background-color: rgb(26, 0, 13);
@@ -11,23 +15,29 @@ body {
 
 .gray-bar {
 	position: absolute;
-	background-color: black;
+	background-color: rgb(0, 0, 0, 0.5);
 	width: 400px;
 	height: 100px;
 	z-index: 2;
-	opacity: 0.5;
 	top: 20%;
 	font-size: 48px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.gray-bar .logo {
+	height: 90%;
+	display: inline;
 }
 
 .bar-text {
-	font-size: 1em;
+	font-size: 1.4em;
 	color: whitesmoke;
-	text-align: center;
-	margin: auto;
-	height: 100%;
-	align-content: center;
 	font-weight: 900;
+	display: inline;
+	font-family: Odin;
 }
 
 #plant {
